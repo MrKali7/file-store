@@ -139,7 +139,7 @@ async def start_command(client: Client, message: Message):
         elif verify_status['is_verified']:
             reply_markup = InlineKeyboardMarkup(
                 [[InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                  InlineKeyboardButton('🍁 Join', url='https://t.me/GoBox10')]]
+                  InlineKeyboardButton('🍁 Join', url='https://t.me/All_Links_Ki_Duniya')]]
             )
             await message.reply_text(
                 text=START_MSG.format(
